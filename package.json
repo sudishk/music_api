@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sudishk/music_api/issues"
   },
-  "homepage": "https://github.com/sudishk/music_api#readme"
+  "homepage": "https://github.com/sudishk/music_api#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
