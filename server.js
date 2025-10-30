@@ -7,7 +7,7 @@ const app = express();
 
 app.get("/api/user", async(request, response)=>{
     const result =await db.query("SELECT * FROM users");
-    response.status(200).json(result);
+    response.status(200).json(result[0]);
 });
 
 app.listen(4000, (error)=>{
